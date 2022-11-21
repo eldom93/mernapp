@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
 
 //listening for req
 app.listen(process.env.PORT, () => {
-    console.log('kos omaku koloko')
+    console.log('kos omaku koloko',process.env.PORT)
 })
 
 process.env
